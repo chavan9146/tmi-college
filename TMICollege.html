@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Prism CSS (dark theme like VS Code) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="TMICollege.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="C:\Users\91805\Downloads\tmi-abstract-technology-logo-design-on-black-background-tmi-creative-initials-letter-logo-concept-vector.jpg" class="image1"> College</div>
+  </header><br><br>
+    <h2 class="h0">Watch the full video to unlock the source code</h2><br><br>
+
+  <iframe id="ytVideo" width="400" height="315"
+    src="https://www.youtube.com/embed/qgCjhat2lr4?enablejsapi=1"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen class="iframe">
+  </iframe>
+    <!-- Show After Video Ends -->
+<div id="code" class="code">
+    <h2 class="h0">Source Code:</h2><br><br>
+  
+    <h2 class="h0">HTML</h2><button onclick="copyToClipboard('htmlCode')">📋</button>
+    <pre class="pre"><code class="language-html" id="htmlCode">
+    
+  &lt;div class="carousel"&gt;
+    &lt;img src="#" alt="Image 2"&gt;
+    &lt;img src="#" alt="Image 3"&gt;
+    &lt;img src="#" alt="Image 4"&gt;
+    &lt;img src="#" alt="Image 5"&gt;
+    &lt;img src="#" alt="Image 6"&gt;
+  &lt;/div&gt;
+    </code></pre>
+    
+  
+    <h2 class="h0">CSS</h2><button onclick="copyToClipboard('cssCode')">📋</button>
+    <pre class="pre1"><code class="language-css" id="cssCode">
+  .carousel {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 15s infinite linear;
+  }
+  .carousel img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  .carousel iframe {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  @keyframes rotate {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+  }
+  
+  .carousel iframe:nth-child(1) { transform: rotateY(0deg) translateZ(400px); }
+  .carousel img:nth-child(2) { transform: rotateY(60deg) translateZ(400px); }
+  .carousel img:nth-child(3) { transform: rotateY(120deg) translateZ(400px); }
+  .carousel img:nth-child(4) { transform: rotateY(180deg) translateZ(400px); }
+  .carousel img:nth-child(5) { transform: rotateY(240deg) translateZ(400px); }
+  .carousel img:nth-child(6) { transform: rotateY(300deg) translateZ(400px); }
+    </code></pre>
+    
+  </div>
+  <!-- Prism JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+<!-- Prism JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+
+
+<footer>
+  &copy; 2025 WebLite Shop. All rights reserved.
+</footer>
+<script src="TMICollege.js"></script>
+</body>
+</html>
